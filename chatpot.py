@@ -1,10 +1,10 @@
-# Simple chatbot in Python
+# Simple chatbot 
 
 def chatbot_response(user_input):
     # Convert input to lowercase to handle case-insensitive responses
     user_input = user_input.lower()
 
-    # Define responses for common greetings and questions
+    # Define responses for common greetings,questions and its can be change as needed
     if "hello" in user_input or "hi" in user_input:
         return "Hello! How can I assist you today?"
     elif "how are you" in user_input:
