@@ -1,5 +1,5 @@
 #first in terminal pip install nltk and the other files
-# enter in the last of the code enter the keywords 
+#  in the last of the code enter the keywords 
 
 import imaplib
 import email
