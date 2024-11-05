@@ -1,3 +1,6 @@
+#first in terminal pip install nltk and the other files
+# enter in the last of the code enter the keywords 
+
 import imaplib
 import email
 from email.header import decode_header
