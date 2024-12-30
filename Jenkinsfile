@@ -4,21 +4,15 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/saudx40v/Python-codes.git'  // استبدل بالرابط الصحيح
+                
+                git 'https://github.com/saudx40v/Python-codes.git'
             }
         }
 
-       
-
-        stage('Run Tests') {
+        stage('Run Specific Python Script') {
             steps {
-                sh 'npm test'
-            }
-        }
-
-        stage('Build') {
-            steps {
-                sh 'npm run build'
+                
+                sh 'python3 Creating\\ Invoice.py'
             }
         }
     }
