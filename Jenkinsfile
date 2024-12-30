@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 
-                git 'https://github.com/saudx40v/Python-codes.git'
+                https://github.com/saudx40v/Python-codes.git
             }
         }
 
